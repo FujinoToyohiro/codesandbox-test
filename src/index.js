@@ -1,10 +1,9 @@
-import "./styles.css";
+/** const letについて */
+var val1 = "var変数";
+console.log(val1);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+val1 = "上書き可能";
+console.log(val1);
+
+var val1 = "再宣言は？";
+console.log(val1);
